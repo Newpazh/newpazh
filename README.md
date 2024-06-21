@@ -1,4 +1,4 @@
-## Hola! Estás en la página adecuada. Estamos en construcción. Para contactar busca Newpazh en Linkedin
+## Hola! Estás en la página adecuada pero estamos en construcción. Para contactar busca Newpazh en Linkedin   https://www.linkedin.com/company/88029731/admin/feed/posts/
 
 <!--
 **Newpazh/newpazh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
