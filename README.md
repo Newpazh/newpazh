@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hola! Estás en la página adecuada. Estamos en construcción. Para contactar busca Newpazh en Linkedin
 
 <!--
 **Newpazh/newpazh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
