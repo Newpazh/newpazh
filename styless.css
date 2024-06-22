@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.auth-buttons a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.auth-buttons .btn-primary {
+    background-color: #007BFF;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.hero-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+}
+
+.hero-text .btn-secondary {
+    background-color: #007BFF;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cursos, .testimonios, .profesores, .inscripcion {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.cursos h2, .testimonios h2, .profesores h2, .inscripcion h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cursos p, .inscripcion p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.curso, .testimonio, .profesor {
+    margin-bottom: 2rem;
+}
+
+.curso h3, .profesor h3 {
+    font-size: 1.5rem;
+}
+
+.curso p, .profesor p, .testimonio p {
+    font-size: 1rem;
+}
+
+.curso .btn-tertiary {
+    background-color: #007BFF;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color:
+
+
+
+
+
