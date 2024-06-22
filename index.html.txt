@@ -25,11 +25,8 @@
             border-radius: 8px;
         }
         .logo {
-             background-image: url('assets/logo.png');
-              width: 150px;
-              height: 150px;
-              background-size: contain;
-              background-repeat: no-repeat;
+            max-width: 150px;
+            margin-bottom: 20px;
         }
         h1 {
             color: #333;
