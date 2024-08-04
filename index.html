@@ -1,129 +1,53 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Newpazh - Escuela de Negocios Online</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Newpazh</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        img {
+            width: 200px; /* Ajusta el tamaño del logo según sea necesario */
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .visitor-counter {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <a href="index.html">
-            <img src="images/logo.png" alt="Newpazh Logo" class="logo-img">
-            </a>
+    <div class="container">
+        <img src="ruta/al/logo.png" alt="Newpazh Logo">
+        <div class="message">
+            Temporalmente para cualquier cuestión contacten a través del <a href="https://www.linkedin.com/in/tu-perfil">enlace en LinkedIn</a>.
         </div>
-        <nav>
-            <ul>
-                <li><a href="#cursos">Cursos</a></li>
-                <li><a href="#profesores">Profesores</a></li>
-                <li><a href="#inscripcion">Inscripción</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-        <div class="auth-buttons">
-            <a href="login.html">Inicia Sesión</a>
-            <a href="register.html" class="btn-primary">Inscríbete</a>
+        <div class="visitor-counter">
+            Visitas: <span id="visitorCount">968327</span>
         </div>
-    </header>
-    
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Impulsa tu Carrera con la Educación del Futuro</h1>
-            <p>Descubre nuestros cursos en Industria 4.0, Transformación Digital e Inteligencia Artificial</p>
-            <a href="#cursos" class="btn-secondary">Explora Nuestros Cursos</a>
-        </div>
-    </section>
-    
-    <section id="cursos" class="cursos">
-        <h2>Nuestros Cursos</h2>
-        <p>Programas diseñados por expertos para preparar a los líderes del mañana en las tecnologías más avanzadas.</p>
-        <div class="curso">
-            <h3>Transformación Digital en la Industria</h3>
-            <p>Aprende cómo implementar estrategias digitales en tu empresa.</p>
-            <a href="curso1.html" class="btn-tertiary">Más Información</a>
-        </div>
-        <div class="curso">
-            <h3>Inteligencia Artificial Aplicada</h3>
-            <p>Domina el uso de IA en el entorno empresarial.</p>
-            <a href="curso2.html" class="btn-tertiary">Más Información</a>
-        </div>
-        <div class="curso">
-            <h3>Tecnologías de Industria 4.0</h3>
-            <p>Explora las tecnologías que están revolucionando la manufactura y la producción.</p>
-            <a href="curso3.html" class="btn-tertiary">Más Información</a>
-        </div>
-    </section>
-    
-    <section class="testimonios">
-        <h2>Qué Dicen Nuestros Estudiantes</h2>
-        <div class="testimonio">
-            <p>"Gracias a este curso, pude transformar digitalmente mi empresa." - Juan Pérez</p>
-        </div>
-        <div class="testimonio">
-            <p>"Las clases de IA son prácticas y muy completas." - María Gómez</p>
-        </div>
-    </section>
-    
-    <section id="profesores" class="profesores">
-        <h2>Conoce a Nuestros Expertos</h2>
-        <div class="profesor">
-            <h3>Dr. Carlos Sánchez</h3>
-            <p>Especialista en Transformación Digital</p>
-        </div>
-        <div class="profesor">
-            <h3>Ing. Laura Rodríguez</h3>
-            <p>Experta en Inteligencia Artificial</p>
-        </div>
-        <div class="profesor">
-            <h3>MSc. Andrés Ramírez</h3>
-            <p>Innovador en Industria 4.0</p>
-        </div>
-    </section>
-    
-    <section id="inscripcion" class="inscripcion">
-        <h2>Inscríbete Hoy</h2>
-        <p>Únete a nuestra comunidad de estudiantes y empieza a aprender las habilidades del futuro.</p>
-        <form>
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-            <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono" name="telefono" required>
-            <label for="curso">Curso de Interés</label>
-            <select id="curso" name="curso" required>
-                <option value="transformacion">Transformación Digital en la Industria</option>
-                <option value="ia">Inteligencia Artificial Aplicada</option>
-                <option value="industria4">Tecnologías de Industria 4.0</option>
-            </select>
-            <button type="submit" class="btn-primary">Inscribirme</button>
-        </form>
-    </section>
-    
-    <footer>
-        <div class="footer-section">
-            <h3>Sobre Nosotros</h3>
-            <p>Información sobre la escuela de negocios Newpazh.</p>
-        </div>
-        <div class="footer-section">
-            <h3>Términos y Condiciones</h3>
-            <p>Consulta nuestros términos y condiciones.</p>
-        </div>
-        <div class="footer-section">
-            <h3>Política de Privacidad</h3>
-            <p>Lee nuestra política de privacidad.</p>
-        </div>
-        <div class="footer-section">
-            <h3>Redes Sociales</h3>
-            <p>https://www.linkedin.com/company/88029731/admin/feed/posts/</p>
-        </div>
-        <div class="footer-contacto">
-            <p>Email: newpazh@gmail.com</p>
-            <p>Teléfono: tbd </p>
-            <p>Dirección: Madrid </p>
-        </div>
-    </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let count = 968327;
+            setInterval(function() {
+                count++;
+                document.getElementById('visitorCount').textContent = count;
+            }, 1000); // Incrementa el contador cada segundo
+        });
+    </script>
 </body>
 </html>
